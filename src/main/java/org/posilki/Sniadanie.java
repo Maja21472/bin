@@ -2,14 +2,14 @@ package org.posilki;
 import java.util.Random;
 
 public class Sniadanie {
-    private String[] baza = {"jajecznica", "naleśniki", "owsianka"};
-    private String[] owoc = {"truskawki", "borówki", "jabłko"};
-    private String[] dodatek = {"skyr", "baton proteinowy", "serek wiejski"};
 
     public Sniadanie() {
         Random random = new Random();
+        String[] baza = {"jajecznica", "naleśniki", "owsianka"};
         int bazaIndex = random.nextInt(baza.length);
+        String[] owoc = {"truskawki", "borówki", "jabłko"};
         int owocIndex = random.nextInt(owoc.length);
+        String[] dodatek = {"skyr", "baton proteinowy", "serek wiejski"};
         int dodatekIndex = random.nextInt(dodatek.length);
 
         String wybranaBaza = baza[bazaIndex];
