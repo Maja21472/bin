@@ -3,6 +3,9 @@ package org.posilki;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * test śniadania - sprawdza czy posiłek się generuje
+ */
 class SniadanieTest {
 
     @Test
